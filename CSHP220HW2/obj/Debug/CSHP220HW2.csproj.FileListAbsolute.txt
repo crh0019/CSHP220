@@ -1,0 +1,7 @@
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\bin\Debug\CSHP220HW2.exe.config
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\bin\Debug\CSHP220HW2.exe
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\bin\Debug\CSHP220HW2.pdb
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\obj\Debug\CSHP220HW2.csprojAssemblyReference.cache
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\obj\Debug\CSHP220HW2.csproj.CoreCompileInputs.cache
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\obj\Debug\CSHP220HW2.exe
+C:\Users\crh00\Desktop\School\C# Certificate\Creating Client Applications in C# (Spring 2019)\Week 2\CSHP220HW2\obj\Debug\CSHP220HW2.pdb
