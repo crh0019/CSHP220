@@ -5,14 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloWorld"
         mc:Ignorable="d"
-        Title="MainWindow" WindowState="Maximized" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525">
 
-    <StackPanel>
-        
+    <StackPanel x:Name="uxContainer">
         <TextBlock>Enter Name:</TextBlock>
-        <TextBox x:Name="uxName"></TextBox>
+        <TextBox x:Name="uxName" 
+        Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}">
+        </TextBox>
+        <Label x:Name="uxNameError" 
+            Content="{Binding NameError, UpdateSourceTrigger=PropertyChanged}"></Label>
+        
         <TextBlock>Enter Password:</TextBlock>
-        <TextBox x:Name="uxPassword"></TextBox>
+        <TextBox x:Name="uxPassword" 
+        Text="{Binding Password, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}">
+        </TextBox>
+        <Label x:Name="uxPasswordError" 
+            Content="{Binding PasswordError, UpdateSourceTrigger=PropertyChanged}"></Label>
+        
         <Button x:Name="uxSubmit" Click="UxSubmit_Click">Submit
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
@@ -30,10 +39,10 @@
 
         <Button>
             <StackPanel Orientation="Horizontal">
-                <Image Source="images/ic_thumb_up_black_24dp_2x.png" Margin="0,0,10,0"/>
+                <Image Source="Images/ic_thumb_up_black_24dp_2x.png" Margin="0,0,10,0"/>
                 <TextBlock VerticalAlignment="Center" Text="Thumbs Up" />
             </StackPanel>
         </Button>
-        
+
     </StackPanel>
 </Window>

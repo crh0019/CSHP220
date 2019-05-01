@@ -20,21 +20,30 @@ namespace HelloWorld
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Models.User user = new Models.User();
+
         public MainWindow()
         {
             InitializeComponent();
-            //WindowState = WindowState.Maximized;
+            uxContainer.DataContext = user;
         }
 
         private void UxSubmit_Click(object sender, RoutedEventArgs e)
         {
+            int x = 1;
+            x = x / (x - 1); // Induce a DivideByZeroException
+
             MessageBox.Show("Submitting password:" + uxPassword.Text);
+            var window = new SecondWindow();
+            Application.Current.MainWindow = window;
+            Close();
+            window.Show();
         }
 
         private bool EnableSubmit()
         {
             bool enabled = false;
-            if(uxName.Text.Length != 0 & uxPassword.Text.Length != 0)
+            if (uxName.Text.Length != 0 & uxPassword.Text.Length != 0)
             {
                 enabled = true;
             }
