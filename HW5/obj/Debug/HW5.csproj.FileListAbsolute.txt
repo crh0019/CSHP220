@@ -1,0 +1,15 @@
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.csprojAssemblyReference.cache
+C:\Users\crh00\Desktop\HW5\obj\Debug\MainWindow.g.cs
+C:\Users\crh00\Desktop\HW5\obj\Debug\App.g.cs
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5_MarkupCompile.cache
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5_MarkupCompile.lref
+C:\Users\crh00\Desktop\HW5\bin\Debug\HW5.exe.config
+C:\Users\crh00\Desktop\HW5\bin\Debug\HW5.exe
+C:\Users\crh00\Desktop\HW5\bin\Debug\HW5.pdb
+C:\Users\crh00\Desktop\HW5\obj\Debug\MainWindow.baml
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.g.resources
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.Properties.Resources.resources
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.csproj.GenerateResource.cache
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.csproj.CoreCompileInputs.cache
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.exe
+C:\Users\crh00\Desktop\HW5\obj\Debug\HW5.pdb
